@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ORCAS</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script defer src = "./index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+            <div class = "overlay">
+                <H1>ORCAS</H1>
+                <div class = "line">
+                </div>
+                <div class = "center">
+                <div class = "row">
+                    <br>
+                    <p>"Killer Whale"</p>
+                    <div>
+
+                        <object data = "orcas.txt" class= "textBox"></object>
+
+                    </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tpBJhbSG46A?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <a href="https://en.wikipedia.org/wiki/Orca">Source: "Orca", Wikipedia</a>
+                </div>
+                </div>
+                <div class = "line" style = "margin-top: 4%;"></div>
+            </div>
+           
+            <script>
+                $('#orcasText').load("/orcas.txt")
+            </script>
+    </body>
+</html>

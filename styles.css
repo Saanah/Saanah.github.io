@@ -1,0 +1,65 @@
+body {
+    background: rgba(11, 29, 54, 0.884);
+    
+  }
+  h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Apple Chancery';
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+  }
+  p {
+    color: rgb(255, 255, 255);
+    font-family: "Calibri, sans-serif";
+    font-style: italic;
+    font-size: 20px;
+  }
+  .overlay {
+    border: 2px solid #ffffff;
+    border-style: dashed;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    overflow-y: scroll;
+    background: linear-gradient(rgba(18, 48, 73, 0.884), rgba(0, 0, 0, 0.938))
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+  }
+  .row{
+    width: max-content;
+    text-align: center;
+  }
+  .line{
+    background-image: url('https://media0.giphy.com/media/12ffdI8DuUi2RO/giphy.gif');
+    width: 100%;
+    height: 5%;
+    position:relative;
+  }
+
+  .textBox{
+
+    width: 100ch;
+    height: 500px;
+    white-space: initial;
+    color:#ffffff;
+
+  }
+
+  a{
+
+    text-align: center;
+    display: block;
+    margin-top: 5vh;
+    color: #ffffff;
+    
+    }
+
+    a:visited {
+      color:  #ffffff;
+    }
